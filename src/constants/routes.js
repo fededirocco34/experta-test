@@ -1,7 +1,9 @@
+import ProviderList from '../app/components/Providers/ProviderList';
+
 export const RESOURCES = [
   {
-    name: 'providers',
-    list: '',
+    name: 'users',
+    list: ProviderList,
     icon: '',
     edit: '',
     create: '',
