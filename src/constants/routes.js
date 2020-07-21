@@ -1,4 +1,5 @@
 import ProviderList from '../app/components/Providers/ProviderList';
+import ProviderCreate from '../app/components/Providers/ProviderCreate';
 
 export const RESOURCES = [
   {
@@ -6,7 +7,7 @@ export const RESOURCES = [
     list: ProviderList,
     icon: '',
     edit: '',
-    create: '',
+    create: ProviderCreate,
     show: ''
   }
 ];
