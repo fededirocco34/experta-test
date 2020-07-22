@@ -4,7 +4,7 @@ import ProviderShow from '../app/components/Providers/ProviderShow';
 
 export const RESOURCES = [
   {
-    name: 'users',
+    name: 'providers',
     list: ProviderList,
     icon: '',
     edit: '',
