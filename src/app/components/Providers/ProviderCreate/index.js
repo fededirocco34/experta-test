@@ -8,7 +8,7 @@ const validateEmail = email();
 function ProviderCreate({ ...props }) {
   return (
     <Create {...props}>
-        <SimpleForm>
+      <SimpleForm>
         <TextInput source={PROVIDER_FIELDS.name} />
         <TextInput source={PROVIDER_FIELDS.cuit} />
         <TextInput source={PROVIDER_FIELDS.email} validate={validateEmail} />
