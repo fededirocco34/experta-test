@@ -6,3 +6,5 @@ export const PROVIDER_FIELDS = {
   phone: 'phone',
   responsibleType: 'responsibleType'
 };
+
+export const MAX_LENGTH_CUIT = 11;

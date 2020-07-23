@@ -1,12 +1,10 @@
 import React from 'react';
 import { CreateButton, ExportButton } from 'react-admin';
 
-import { RESOURCES } from '../../../constants/routes';
-
-function ListActionsButtons(props) {
+function ListActionsButtons({ basePath, data }) {
   return (
     <div>
-      <CreateButton basePath={RESOURCES[0].name} />
+      <CreateButton basePath={basePath} record={data} />
       <ExportButton />
     </div>
   );
