@@ -1,0 +1,9 @@
+export const PUERTO_RICO = '#4CBD9E';
+export const MOUNTAIN_MEADOW = '#21C28B';
+export const DOVE_GRAY = '#717171';
+export const MINE_SHAFT = '#363636';
+export const DODGER_BLUE = '#1D8DFA';
+export const WHITE = '#FFF';
+export const CATALINA_BLUE = '#074179';
+export const BLACK = '#000';
+export const EBB = '#F1ECEC'

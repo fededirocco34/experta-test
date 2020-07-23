@@ -4,11 +4,10 @@ import { connect } from 'react-redux';
 
 import BulkActionsButtons from '../../../screens/BulkActionsButtons';
 import ListActionsButtons from '../../../screens/ListActionsButtons';
-
 import { PROVIDER_FIELDS } from '../constants';
 
-
 function ProviderList({ ...props }) {
+
   return (
     <List {...props} 
       actions={<ListActionsButtons providers={props.providers} />} 
