@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ProviderTitle = ({ record }) => (
-  <span>{record ? `Usuario: ${record.name}` : ''}</span>
+  <span>{record ? `Proveedor ${record.name}` : ''}</span>
 );
 
 export default ProviderTitle;
