@@ -7,4 +7,4 @@ export const PROVIDER_FIELDS = {
   responsibleType: 'responsibleType'
 };
 
-export const MAX_LENGTH_CUIT = 11;
+export const MAX_LENGTH_CUIT = 13;
